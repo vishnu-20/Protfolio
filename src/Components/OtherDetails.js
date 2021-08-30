@@ -7,7 +7,7 @@ import Resume from "./Resume";
 import {BrowserRouter as Route,Redirect,Switch,useLocation,} from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 
-
+//added
 
 function OtherDetails({send,sentEmailDirect}) {
   const location = useLocation();
