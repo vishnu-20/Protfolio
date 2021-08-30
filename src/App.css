@@ -1,0 +1,391 @@
+.profile {
+  background-color: white;
+  border-radius: 15px;
+  height: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background: #5433ff;
+  background: -webkit-linear-gradient(to right, #a5fecb, #20bdff, #5433ff);
+  background: linear-gradient(to right, #a5fecb, #20bdff, #5433ff);
+}
+
+.other_details {
+  background-color: white;
+  border-radius: 15px;
+  height: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+.app_row {
+  height: 90vh;
+}
+
+body {
+  /* background: rgb(107,9,159);
+background: linear-gradient(90deg, rgba(107,9,159,1) 0%, rgba(107,9,159,1) 8%, rgba(1,138,247,1) 67%, rgba(107,9,159,1) 100%, rgba(107,9,159,1) 100%); */
+  background: #5433ff;
+  background: -webkit-linear-gradient(to right, #a5fecb, #20bdff, #5433ff);
+  background: linear-gradient(to right, #a5fecb, #20bdff, #5433ff);
+}
+
+.color-green-blue {
+  background: #5433ff;
+  background: -webkit-linear-gradient(to right, #a5fecb, #20bdff, #5433ff);
+  background: linear-gradient(to right, #a5fecb, #20bdff, #5433ff);
+}
+
+.profile_photo {
+  border-radius: 15px 50px;
+  padding: 20px;
+  width: 200px;
+  height: 250px;
+}
+
+.profile_main {
+  text-align: center;
+  padding: 15px;
+}
+.profile_name {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.profile_item {
+  margin-top: 15px;
+  padding-top: 15px;
+}
+.profile_title {
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 20px;
+}
+
+.a {
+  text-decoration: none;
+  color: black;
+}
+.a:hover {
+  color: black;
+}
+
+.profile_resume {
+  margin-left: 5px;
+}
+.profile_resume:hover {
+  transform: scale(1.2);
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 20px;
+}
+.profile_github {
+  margin-left: 10px;
+  
+}
+.intagram_profile{
+margin-left: 10px;
+}
+
+
+.profile_github:hover {
+  transform: scale(1.2);
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 20px;
+}
+.profile_contact {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 10px;
+}
+.profile_email {
+  background: #5433ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #a5fecb,
+    #20bdff,
+    #5433ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #a5fecb,
+    #20bdff,
+    #5433ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 30px;
+  text-align: center;
+  margin: 15px 25px 0px;
+  cursor: pointer;
+}
+.profile_email:hover {
+  transform: scale(1.1);
+  transition: all, 2s;
+}
+
+
+
+/* navbar */
+
+.navbar_items {
+  display: flex;
+}
+.navbar_item {
+  margin-right: 25px;
+  cursor: pointer;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+.navbar_active {
+  font-size: 2rem;
+  font-weight: 700;
+  border-bottom: 4px solid #20bdff;
+  margin-left: 15px;
+}
+.navbar_item:hover {
+  transform: scale(1.2);
+  transition: all, 1s;
+  color: #20bdff;
+}
+.navbar {
+  padding: 15px;
+}
+
+/* about */
+.about_introduction {
+  background-color: #f1f1f1;
+  /* margin-top: 10px; */
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.about {
+  padding: 25px;
+}
+.about_container{
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 25px;
+    margin-top: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.about_heading{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.skill_card{
+    padding: 10px;
+   background-color: white;
+   display: flex;
+   /* margin-top: 10px; */
+   margin: .25rem;
+   border-radius: 10px;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.skill_icon{
+    height: 80px;
+    width: 50px;
+    border-radius: 10px;
+}
+.about_row{
+    padding: 10px;
+}
+.skill_card_body{
+    padding: 5px;
+   
+}
+.card_title{
+font-size: 19px;
+margin-left: 10px;
+margin-top: 5px;
+}
+.card_about{
+  
+margin-left: 10px;
+margin-top: 5px;
+
+}
+
+.resume_container{
+  padding: 25px;
+  transition: all 2s ease;
+
+}
+
+.resume_card{
+  background-color: #f1f1f1;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin-top: 10px;
+  
+}
+.resume_card_other{
+  
+  margin-left: auto;
+  background-color: #f1f1f1;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin-top: 10px;
+  
+}
+.resume_details{
+  font-size: .1.7rem;
+  margin-left: 10px;
+  font-weight: 100;
+  color: grey;
+}
+.resume_title{
+  font-size: 1.7rem;
+  margin-left: 10px;
+  font-weight: 700;
+  color: grey;
+}
+.resume_row{
+  padding: 15px;
+}
+
+/* technical skill */
+
+
+.technical_container{
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 25px;
+  margin-top: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+/* bar */
+.bar{
+  width: 90%;
+  /* margin-bottom: 15px; */
+  height: 40px;
+  background-color:white;
+  border-radius:20px;
+}
+
+.bar_icon{
+  height: 40px;
+  width: 25px;
+  border-radius: 10px;
+  border-radius: 50%;
+}
+.bar_wrapper{
+  background: #5433ff;
+  background: -webkit-linear-gradient(to right, #a5fecb, #20bdff, #5433ff);
+  background: linear-gradient(to right, #a5fecb, #20bdff, #5433ff);
+  border-radius:20px;
+  padding: 4px,14px;
+}
+.bar_name{
+margin-left: 10px;;
+}
+.resume_skill_heading{
+
+  font-size: 1.7rem;
+  margin-left: 10px;
+  font-weight: 700;
+  color: grey;
+}
+.bar_main{
+  padding: 10px;
+}
+
+/* projects */
+.project_main{
+
+  height: 72vh;
+  padding-top: 30px;
+  overflow-y: auto;
+
+}
+.projectcard{
+  padding: 15px;
+}
+
+.projectcard_wrapper{
+  margin: 10px, 0px;
+  width: 100%;
+  height: 100%;
+  min-height: 160px;
+  align-items: center;
+}
+
+.project_image{
+
+  width: 280px;
+  height: 150px;
+  border-radius: 10px;
+  transition: transform  0.3s,linear;
+
+}
+.project_image:hover{
+
+  transform: scale(1.02);
+
+}
+.project_title{
+
+  margin-top:12px ;
+  font-size:1rem ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.space{
+  margin-right: 10px;
+}
+
+.project_navbar{
+
+display: flex;
+margin-left: 10px;
+
+}
+.project_navbar>div{
+
+  margin: 0,5px;
+font-size: 1rem;
+cursor: pointer;
+  
+  }
+
+ .card_dec{
+
+  align-items: center;
+
+ } 
+ .data_row{
+   padding: 10px;
+  
+  
+ }
+
+ .email_sideMenu{
+  height: 62vh;
+width: 500px;
+background-color: #20bdff;
+position: fixed;
+bottom: 0;
+right: -500px;
+z-index: 2;
+transition: all 2s ease;
+ }
+ .email_sideMenu_active{
+right: 0;
+ }
